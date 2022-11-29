@@ -1,23 +1,15 @@
-# TikTok-Chat-Reader
-A chat reader for <a href="https://www.tiktok.com/live">TikTok LIVE</a> utilizing <a href="https://github.com/zerodytrash/TikTok-Live-Connector">TikTok-Live-Connector</a> and <a href="https://socket.io/">Socket.IO</a> to forward the data to the client. This demo project uses the unofficial TikTok API to retrieve chat comments, gifts and other events from TikTok LIVE.
+# README
 
-## Demo: https://tiktok-chat-reader.zerody.one/
+This is the [Express](https://expressjs.com) [Hello world](https://expressjs.com/en/starter/hello-world.html) example on [Render](https://render.com).
 
-## Installation
-To run the chat reader locally, follow these steps:
+The app in this repo is deployed at [https://express.onrender.com](https://express.onrender.com).
 
-1. Install [Node.js](https://nodejs.org/) on your system
-2. Clone this repository or download and extract [this ZIP file](https://github.com/zerodytrash/TikTok-Chat-Reader/archive/refs/heads/main.zip)
-3. Open a console/terminal in the root directory of the project
-4. Enter `npm i` to install all required dependencies 
-5. Enter `node server.js` to start the application server
+## Deployment
 
-Now you should see the following message: `Server running! Please visit http://localhost:8091`<br>
-Simply open http://localhost:8091/ in your browser. Thats it.
+See https://render.com/docs/deploy-node-express-app or follow the steps below:
 
-If you have problems with Node.js, you can also just open the `index.html` from the `public` folder.<br>
-This will use the server backend of the [demo site](https://tiktok-chat-reader.zerody.one/), which is sufficient for testing purposes. If you want to offer it to others or make many connections at the same time, please consider using your own server.
+Create a new web service with the following values:
+  * Build Command: `yarn`
+  * Start Command: `node app.js`
 
-## Screenshot
-
-![TikTok LIVE Chat Reader (Demo)](https://user-images.githubusercontent.com/59258980/153956504-c585b14b-a50e-43f0-a994-64adcaface2e.png)
+That's it! Your web service will be live on your Render URL as soon as the build finishes.
